@@ -5,7 +5,7 @@ class UsersController < ApplicationController
   # GET /users.json
   def index
     @users = User.all
-    @amplitude_key = Rails.application.credentials.amplitude[:key]
+    # @amplitude_key = Rails.application.credentials.amplitude[:key]
   end
 
   # GET /users/1
