@@ -5,7 +5,7 @@ class UsersController < ApplicationController
   # GET /users.json
   def index
     @users = User.all
-    @mix_panel_key = Rails.application.credentials.mix_panel[:key]
+    # @mix_panel_key = Rails.application.credentials.mix_panel[:key]
   end
 
   # GET /users/1
