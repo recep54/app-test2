@@ -5,6 +5,23 @@ for(h=0;h<k.length;h++)e(d,k[h]);a._i.push([b,c,f])};a.__SV=1.2;b=e.createElemen
 mixpanel.init("5a6926990ae4bda4b568707c96e28d41");</script><!-- end Mixpanel -->
 </head>
 
+
+
+
+<div id="nav">
+    <a href="#">Home</a>
+    <a href="#">About</a>
+    <a href="#">Pricing</a>
+</div>
+<script type="text/javascript">
+    mixpanel.track_links("#nav a", "click nav link", {
+        "referrer": document.referrer
+    });
+</script>
+
+
+
+
 <p id="notice"><%= notice %></p>
 
 <h1>Users</h1>
